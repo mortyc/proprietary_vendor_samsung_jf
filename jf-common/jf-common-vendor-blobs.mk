@@ -160,6 +160,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/gsm/bin/netmgrd:system/bin/netmgrd \
 	vendor/samsung/jf-common/proprietary/rild/gsm/bin/qcks:system/bin/qcks \
 	vendor/samsung/jf-common/proprietary/rild/gsm/bin/qmuxd:system/bin/qmuxd \
+	vendor/samsung/jf-common/proprietary/rild/gsm/bin/rild:system/bin/rild \
 	vendor/samsung/jf-common/proprietary/rild/gsm/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -179,7 +180,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/gsm/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/lib/libsecril-client.so:system/lib/libsecril-client.so \
-	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
 	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
@@ -190,6 +190,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/cdma/bin/netmgrd:system/rild/cdma/bin/netmgrd \
 	vendor/samsung/jf-common/proprietary/rild/cdma/bin/qcks:system/rild/cdma/bin/qcks \
 	vendor/samsung/jf-common/proprietary/rild/cdma/bin/qmuxd:system/rild/cdma/bin/qmuxd \
+	vendor/samsung/jf-common/proprietary/rild/cdma/bin/rild:system/rild/cdma/bin/rild \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libatparser.so:system/rild/cdma/lib/libatparser.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libfactoryutil.so:system/rild/cdma/lib/libfactoryutil.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libomission_avoidance.so:system/rild/cdma/lib/libomission_avoidance.so \
@@ -199,7 +200,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libsec-ril.so:system/rild/cdma/lib/libsec-ril.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libsecril-client.so:system/rild/cdma/lib/libsecril-client.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/lib/libxml.so:system/rild/cdma/lib/libxml.so \
-	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/bin/hw/rild:system/rild/cdma/vendor/bin/hw/rild \
 	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/lib/libcneapiclient.so:system/rild/cdma/vendor/lib/libcneapiclient.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/lib/libconfigdb.so:system/rild/cdma/vendor/lib/libconfigdb.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/lib/libdiag.so:system/rild/cdma/vendor/lib/libdiag.so \
@@ -220,6 +220,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/usc/bin/netmgrd:system/rild/usc/bin/netmgrd \
 	vendor/samsung/jf-common/proprietary/rild/usc/bin/qcks:system/rild/usc/bin/qcks \
 	vendor/samsung/jf-common/proprietary/rild/usc/bin/qmuxd:system/rild/usc/bin/qmuxd \
+	vendor/samsung/jf-common/proprietary/rild/usc/bin/rild:system/rild/usc/bin/rild \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libatparser.so:system/rild/usc/lib/libatparser.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libfactoryutil.so:system/rild/usc/lib/libfactoryutil.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libomission_avoidance.so:system/rild/usc/lib/libomission_avoidance.so \
@@ -229,7 +230,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libsec-ril.so:system/rild/usc/lib/libsec-ril.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libsecril-client.so:system/rild/usc/lib/libsecril-client.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/lib/libxml.so:system/rild/usc/lib/libxml.so \
-	vendor/samsung/jf-common/proprietary/rild/usc/vendor/bin/hw/rild:system/rild/usc/vendor/bin/hw/rild \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libcneapiclient.so:system/rild/usc/vendor/lib/libcneapiclient.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libconfigdb.so:system/rild/usc/vendor/lib/libconfigdb.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libdiag.so:system/rild/usc/vendor/lib/libdiag.so \
@@ -262,6 +262,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/vzw/bin/netmgrd:system/rild/vzw/bin/netmgrd \
 	vendor/samsung/jf-common/proprietary/rild/vzw/bin/qcks:system/rild/vzw/bin/qcks \
 	vendor/samsung/jf-common/proprietary/rild/vzw/bin/qmuxd:system/rild/vzw/bin/qmuxd \
+	vendor/samsung/jf-common/proprietary/rild/vzw/bin/rild:system/rild/vzw/bin/rild \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libatparser.so:system/rild/vzw/lib/libatparser.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libfactoryutil.so:system/rild/vzw/lib/libfactoryutil.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libomission_avoidance.so:system/rild/vzw/lib/libomission_avoidance.so \
@@ -271,7 +272,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libsec-ril.so:system/rild/vzw/lib/libsec-ril.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libsecril-client.so:system/rild/vzw/lib/libsecril-client.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/lib/libxml.so:system/rild/vzw/lib/libxml.so \
-	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/bin/hw/rild:system/rild/vzw/vendor/bin/hw/rild \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libcneapiclient.so:system/rild/vzw/vendor/lib/libcneapiclient.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libconfigdb.so:system/rild/vzw/vendor/lib/libconfigdb.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libdiag.so:system/rild/vzw/vendor/lib/libdiag.so \
